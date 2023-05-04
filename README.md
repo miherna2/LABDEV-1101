@@ -21,7 +21,7 @@ The response from the API is in JSON format, which is parsed to extract the rele
 **Note**: You will need valid credentials for the ThousandEyes API to use this script. 
 
 ### Further Information
-ThousandEyes API documentation: **https://developer.thousandeyes.com/v6/**
-**requests** module documentation: **https://docs.python-requests.org/en/master/**
-**csv** module documentation: **https://docs.python.org/3/library/csv.html**
-**getpass** module documentation: **https://docs.python.org/3/library/getpass.html**
+ThousandEyes API documentation: **https://developer.thousandeyes.com/v6/**    
+**requests** module documentation: **https://docs.python-requests.org/en/master/**    
+**csv** module documentation: **https://docs.python.org/3/library/csv.html**    
+**getpass** module documentation: **https://docs.python.org/3/library/getpass.html**    
