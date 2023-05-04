@@ -1,14 +1,17 @@
 # LABDEV-1101 - Task 4: Using Python Requests to Consume the Data and Create a Report
 
+### Introduction
 This Python script demonstrates how to use the ThousandEyes API to retrieve a list of agents and export their details to a CSV file. The script prompts the user to provide their email, API token, and Account Group Identifier (AID), which are used to authenticate the API request. The script then sends an HTTP GET request to the ThousandEyes API to retrieve a list of agents associated with the provided AID.
 
 The response from the API is in JSON format, which is parsed to extract the relevant information about each agent. The script then writes this data to a new row in a CSV file called **agents_details.csv** using the **csv.DictWriter** class.
+
 
 ### Prerequisites
 * Python 3.x
 * **requests** module
 * **csv** module
 * **getpass¨ module
+
 
 ### How to use
 1. Download the script and save it to your desktop.
@@ -17,6 +20,7 @@ The response from the API is in JSON format, which is parsed to extract the rele
 4. Run the script by typing **python agent_details.py** and pressing Enter.
 5. Follow the prompts to provide your email, API token, and AID.
 6. The script will create a new CSV file called agents_details.csv in the same directory as the script and write the agent details to it.
+
 
 **Note**: You will need valid credentials for the ThousandEyes API to use this script. 
 
