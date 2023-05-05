@@ -8,7 +8,7 @@ import requests
 # Prompt the user for their email and store the result in a variable
 EMAIL = input("Provide email: ")
 # Prompt the user for their API token and store the result in a variable (using the getpass function for security)
-TOKEN = getpass("Provide Token: ")
+TOKEN = input("Provide Token: ")
 # Prompt the user for the AID (account ID) and store the result in a variable
 AID = input("Provide aid: ")
 # Define a dictionary of HTTP headers to be sent with the API request
