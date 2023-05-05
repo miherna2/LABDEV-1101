@@ -14,7 +14,7 @@ The response from the API is in JSON format, which is parsed to extract the rele
 
 
 ### How to use
-1. Download the script and save it to your desktop.
+1. Download the script.
 2. In this environment the required modules are pre-installed. However, in different environments it will be required to install the modules by running **pip install requests csv getpass** in your terminal.
 3. Open a terminal and navigate to the directory where the script is saved.
 4. Run the script by typing **python agent_details.py** and pressing Enter.
