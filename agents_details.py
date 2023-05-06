@@ -24,7 +24,7 @@ AGENTS = RESPONSE.get("agents")
 
 
 # Open a new CSV file in write mode with the name 'agents_details.csv'
-with open("agents_details.csv", mode="w", encoding="utf-8") as csv_file:
+with open("agents_details.csv", mode="w", encoding="utf-8", newline=None) as csv_file:
 
     # Define the field names for the CSV file
     fields = [
