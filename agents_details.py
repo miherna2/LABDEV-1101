@@ -4,6 +4,8 @@ import csv
 from getpass import getpass
 # Import the 'requests' module for making HTTP requests
 import requests
+# Import the 'os' module to delete pre-existent file
+import os
 
 # Prompt the user for their email and store the result in a variable
 EMAIL = input("Provide email: ")
@@ -22,6 +24,16 @@ RESPONSE = API_CALL.json()
 # Extract the 'agents' list from the JSON response and store it in a variable
 AGENTS = RESPONSE.get("agents")
 
+# Specify the path to the Downloads folder
+downloads_folder = os.path.expanduser("~\Downloads")
+# Specify the name of the CSV file to be deleted
+csv_file_name = "agents_details.csv"
+# Construct the full path to the CSV file
+csv_file_path = os.path.join(downloads_folder, csv_file_name)
+# Check if the file exists before deleting it
+if os.path.exists(csv_file_path):
+    # Delete the CSV file
+    os.remove(csv_file_path)
 
 # Open a new CSV file in write mode with the name 'agents_details.csv'
 with open("agents_details.csv", mode="w", encoding="utf-8", newline="") as csv_file:
