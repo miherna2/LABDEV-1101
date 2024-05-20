@@ -22,7 +22,7 @@ The script then parses the JSON response to extract the relevant details of each
 Note: Valid ThousandEyes API credentials are necessary to utilize this script successfully.
 
 ## Further Information
-- [ThousandEyes API documentation](https://developer.thousandeyes.com/v6/)
+- [ThousandEyes API documentation](https://developer.thousandeyes.com/)
 - [requests module documentation](https://docs.python-requests.org/en/master/)
 - [csv module documentation](https://docs.python.org/3/library/csv.html)
 - [getpass module documentation](https://docs.python.org/3/library/getpass.html)
