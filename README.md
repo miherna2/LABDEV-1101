@@ -11,7 +11,7 @@ The script then parses the JSON response to extract the relevant details of each
 
 ## How to Use
 1. Download the script.
-2. Ensure that the required modules are installed. If not, install them by running `pip install requests csv getpass` in your terminal.
+2. Ensure that the required modules are installed. If not, install them by running `pip install requests` in your terminal.
 3. Open a terminal and navigate to the directory containing the script.
 4. Execute the script by typing `python modify_test_intervals.py` and press Enter.
 5. Follow the on-screen prompts to enter your email, API token, and AID.
