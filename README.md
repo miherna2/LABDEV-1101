@@ -8,8 +8,6 @@ The script then parses the JSON response to extract the relevant details of each
 ## Prerequisites
 - Python 3.x
 - requests module
-- csv module
-- getpass module
 
 ## How to Use
 1. Download the script.
