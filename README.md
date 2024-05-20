@@ -1,7 +1,7 @@
 # LABDEV-1101 - Task 4: Modifying the Interval of Multiple Tests Using Python Requests
 
 ## Introduction
-This Python script is designed to automate the process of modifying the interval of multiple tests using the ThousandEyes API. It allows users to update the interval settings for a batch of tests quickly and efficiently. The script requires the user's email, API token, and Account Group Identifier (AID) for authentication. It sends an HTTP GET request to the ThousandEyes API to retrieve a list of tests associated with the AID.
+This Python script is designed to automate the process of modifying the interval of multiple tests using the ThousandEyes API. It allows users to update the interval settings for a batch of tests quickly and efficiently. The script requires the Bearer token, and Account Group Identifier (AID) for authentication. It sends an HTTP GET request to the ThousandEyes API to retrieve a list of tests associated with the AID.
 
 The script then parses the JSON response to extract the relevant details of each test. Users can specify the new interval, and the script will iterate over the list of tests, sending HTTP PUT requests to update their intervals accordingly. This bulk update saves time and ensures consistency across tests.
 
