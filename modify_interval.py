@@ -26,7 +26,7 @@ def get_test_ids(headers, aid):
 # Define a function to modify tests by sending a PUT request to the API
 def modify_test(headers, test_ids, aid):
     # Define the payload to modify the test interval and add a description
-    payload = '{"interval": 900, "description": "API Modification"}'
+    payload = '{"interval": 120, "description": "API Modification"}'
     # Loop through each test ID and send a PUT request to modify the test configuration
     for test_id in test_ids:
         # Construct the URL for the specific test ID with the account ID parameter
