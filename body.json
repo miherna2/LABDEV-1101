@@ -1,0 +1,81 @@
+{
+    "interval": 900,
+    "bgpMeasurements": false,
+    "description": "ThousandEyes",
+    "testName": "ThousandEyes",
+    "enabled": true,
+    "agents": [
+      {
+        "prefix": "164.92.64.0/19",
+        "ipAddresses": [
+          "164.92.83.39",
+          "2604:a880:4:1d0::70c:5000"
+        ],
+        "network": "Digital Ocean, Inc. (AS 14061)",
+        "agentId": "4519",
+        "agentName": "San Francisco, CA (Trial)",
+        "agentType": "cloud",
+        "countryId": "US",
+        "location": "San Francisco Area"
+      },
+      {
+        "prefix": "144.202.112.0/20",
+        "ipAddresses": [
+          "144.202.112.63",
+          "2001:19f0:6001:53fd:5400:3ff:fef9:cb87"
+        ],
+        "network": "Choopa, LLC (AS 20473)",
+        "agentId": "4544",
+        "agentName": "Los Angeles, CA (Trial)",
+        "agentType": "cloud",
+        "countryId": "US",
+        "location": "Los Angeles Area"
+      },
+      {
+        "prefix": "201.168.0.0/16",
+        "ipAddresses": [
+          "201.168.77.74",
+          "2800:ba0:6a:a2::2:8"
+        ],
+        "network": "Marcatel Com, S.A. de C.V. (AS 19332)",
+        "agentId": "20739",
+        "agentName": "Guadalajara, Mexico (Trial)",
+        "agentType": "cloud",
+        "countryId": "MX",
+        "location": "Jalisco, Mexico"
+},
+      {
+        "prefix": "135.84.188.0/23",
+        "ipAddresses": [
+          "135.84.189.96",
+          "2607:d500:602:435::101"
+        ],
+        "network": "Astute Hosting Inc. (AS 54527)",
+        "agentId": "27470",
+        "agentName": "Toronto, Canada (Trial)",
+        "agentType": "cloud",
+        "countryId": "CA",
+        "location": "Ontario, Canada"
+      }
+    ],
+    "url": "https://thousandeyes.com",
+    "authType": "none",
+    "bandwidthMeasurements": false,
+    "httpTargetTime": 1000,
+    "httpTimeLimit": 5,
+    "httpVersion": 2,
+    "mtuMeasurements": false,
+    "numPathTraces": 3,
+    "pathTraceMode": "classic",
+    "probeMode": "auto",
+    "networkMeasurements": true,
+    "protocol": "tcp",
+    "sslVersionId": "0",
+    "useNtlm": false,
+    "verifyCertificate": true,
+    "allowUnsafeLegacyRenegotiation": true,
+    "contentRegex": "",
+    "followRedirects": true,
+    "ipv6Policy": "use-agent-policy",
+    "sslVersion": "Auto"
+  } 
